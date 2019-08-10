@@ -61,6 +61,7 @@ our $synmarker = $config->{ChkSyn}->{synmarker};
 # Sense marker
 our $snsmarker = $config->{ChkSyn}->{snsmarker};
 #
+# Added comment line
 #
 our $date = Time::Piece->new;
 $date->time_separator("");
